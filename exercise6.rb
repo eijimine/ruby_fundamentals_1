@@ -20,17 +20,17 @@ while input != "go home"
         energy += 3
         puts"Your energy is now #{energy}."
       else
-        puts "thats sad :( !!!"
+        puts "thats bad!!"
       end
 
     else
     distance += 5
+    energy -= 1
     puts "Distance from home is #{distance}km."
     puts "Your energy is #{energy}"
-    energy -= 1
   end
 elsif input == "go home"
-    puts"Bye !! tc! :)"
+    puts"Bye !!"
   end
 
   end
